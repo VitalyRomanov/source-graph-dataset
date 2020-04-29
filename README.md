@@ -3,7 +3,7 @@
 This repository contains the files for source graph dataset described in [Representing Programs with Dependency and Function Call Graphs for Learning Hierarchical Embeddings]().
 
 <p align="center">
-    <img src="Illustration.png" width="300">
+    <img src="Illustration.png" width="600">
 </p>
 
 ## Data
