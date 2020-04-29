@@ -4,8 +4,23 @@
 
 [Nodes]()	[Edges]()
 
-#### Data Format
 ---
+
+#### Usage Example
+
+```python
+>>> import pandas as pd
+>>> nodes = pd.read_csv("nodes.bz2")
+>>> edges = pd.read_csv("edges.bz2")
+>>> nodes.head(5)
+        id  type                                    serialized_name  component
+0   100010  4096  ansible.module_utils.network.exos.facts.legacy...          0
+1   100140  4096     ansible.module_utils.network.f5.common.fq_name          0
+2  1004266  4096               django.utils.dateformat.DateFormat.b          0
+3  1005754  4096           django.utils.html.MLStripper.handle_data          0
+4  1005943  1024                           urllib.parse.uses_params          0
+```
+#### Data Format
 
 The file with nodes contains information in the format of compressed CSV file. Note that `Pandas` allows to load compressed CSV files by default using `read_csv`. 
 
@@ -64,3 +79,19 @@ Nodes and edges in the dataset have different types. Type description is given i
 | Type Use       | 239543 |
 | Import         | 121752 |
 | Inheritance    | 26525  |
+
+#### Indexed Packages
+
+To create a pool of repositories we installed the following packages with dependencies using pip. In the result,  we had over 100 packages installed. The full list of packages is available in `source-graph-packages.txt`.
+
+| Area                      | Python              |
+| ------------------------- | ------------------- |
+| Web application framework | Flask, Django       |
+| Frameworks                | -                   |
+| HTTP client               | Requests            |
+| Crawler                   | Scrapy              |
+| Machine Learning          | Sklearn, Tensorflow |
+| Tabular                   | Pandas              |
+| NLP                       | Spacy               |
+| Visualization             | Bokeh, matplotlib   |
+| Logging                   | Fabric              |

@@ -1,0 +1,15 @@
+https://github.com/jhipster/generator-jhipster
+https://github.com/spring-projects/spring-framework
+https://github.com/spring-projects/spring-boot
+https://github.com/apache/httpcomponents-client
+https://github.com/kong/unirest-java/
+https://github.com/code4craft/webmagic
+https://github.com/yasserg/crawler4j
+https://github.com/eclipse/deeplearning4j
+https://github.com/apache/mahout
+https://github.com/Waikato/weka-trunk
+https://github.com/jtablesaw/tablesaw
+https://github.com/apache/opennlp
+https://github.com/stanfordnlp/CoreNLP
+https://github.com/thingsboard/thingsboard
+https://github.com/apache/log4j
