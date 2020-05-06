@@ -2,7 +2,7 @@
 
 ---
 
-[Nodes](https://gitlab.com/v.romanov/java-source-graph/-/raw/master/02_largest_component/edges_component_0.csv.bz2)	[Edges](https://gitlab.com/v.romanov/java-source-graph/-/raw/master/02_largest_component/nodes_component_0.csv.bz2)
+[Nodes](https://github.com/VitalyRomanov/source-graph-dataset/blob/master/Java/nodes.bz2?raw=true)	[Edges](https://github.com/VitalyRomanov/source-graph-dataset/blob/master/Java/edges.bz2?raw=true)
 
 #### Usage Example
 
