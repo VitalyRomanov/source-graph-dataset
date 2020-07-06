@@ -68,6 +68,14 @@ Nodes and edges in the dataset have different types. Type description is given i
 | 512        | Import              |
 | 4096       | Annotation use      |
 
+#### Names description
+
+The format of names for Java nodes is the following. 
+```
+java.beans.beancontext.BeanContextChildSupport.addVetoableChangeListener___void___(java&lang&String,_java&beans&VetoableChangeListener)
+```
+The first path of a name is a full path of the node in Java package hierarchy. If the node is a function, the return type is enclosed in `___` delimiters on both sides. Anonymous functions are exceptions. The list of arguments follows after the second `___` delimeter. For function arguments symbol `&` plays a role of `.` when specifying path in Java package hierarchy. Spaces (commonly found between the items in the list of function arguments) are replaced with `_`.
+
 #### Dataset Details
 
 | Node Type           | Count  |
